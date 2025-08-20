@@ -5,3 +5,16 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+/* style.css */
+.bg-img {
+  background-image: url('../images/bg_cup.png');
+  background-repeat: no-repeat; 
+  background-position: center bottom; 
+}
+
+@media (max-width: 767px) { 
+  .bg-img {
+    background-image: none; 
+  }
+}
